@@ -1,4 +1,3 @@
-
 {
   "name": "node",
   "version": "1.0.0",
@@ -6,13 +5,15 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"nodemon ./express.js localhost 3452"
+    "start": "nodemon ./express.js localhost 3452"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
-    "nodemon": "^2.0.20"
+    "mysql2": "^3.1.2",
+    "nodemon": "^2.0.20",
+    "sequelize": "^6.28.0"
   }
 }
